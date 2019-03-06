@@ -1,0 +1,58 @@
+.product-info{
+   width: 700px;
+   margin: 20px auto 0;
+   padding: 20px;
+
+   color: white;
+   background: #323330;
+
+   border: 1px solid rgb(24, 24, 24);
+   border-radius: 5px;
+}
+
+.product-info p{
+   margin: 25px 0;
+   color: #ddd;
+}
+
+.product-info .linkRepositorio{
+   height: 42px;
+   border-radius: 5px;
+   border: 2px solid #F0DB4F;
+   background: none;
+   color: #F0DB4F;
+   font-weight: 600;
+   font-size: 16px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+   transition-duration: 0.15s;
+
+   text-decoration: none;
+}
+
+.product-info .linkRepositorio:hover{
+   border: 2px solid #F0DB4F;
+   background: #F0DB4F;
+   color: #323330;
+}
+
+.product-info button{
+   border: 0;
+   border-radius: 5px;
+   padding: 7px 13px;
+   font-size: 16px;
+   background-color: #F0DB4F;
+   color: #323330;
+   font-weight: bold;
+   cursor: pointer;
+   transition: all 0.2s;
+   margin-bottom: 15px;
+   float: right;
+}
+
+.product-info button:hover{
+   opacity: 0.7;
+}
